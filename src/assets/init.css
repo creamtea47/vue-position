@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, em, i {
+    font-weight: 100;
+    font-style: normal;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearful::before, .clearful::after { /* 清除浮动 */
+    content: "";
+    display: block;
+}
+
+.clearful:after { /* 清除浮动 */
+    clear: both;
+}
+
+.title {
+    color: #edeff3;
+}
+
+.text {
+    color: #87898d;
+}
